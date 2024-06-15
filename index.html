@@ -7,7 +7,32 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <div class="mainContainer">
+           <div class="twinContainers firstContainer">
+               <h2>Enter Temperature</h2>
+               <label for="degree">Degree</label>
+
+               <div>
+                <input type="number" placeholder="0">
+                <select name="Temperature" id="temperature">
+                    <option value="celcium">C</option>
+                    <option value="fahrenheit">F</option>
+                </select>
+                </div>
+
+                <label for="convertIn">Convert In</label>
+                <select name="convertIn" id="convert">
+                    <option value="fahrenheit">Fahrenheit (F)</option>
+                    <option value="celcium">Celcium (C)</option>
+                </select>
+
+                <button class="convert">Convert →</button>
+           </div>
+
+           <div class="twinContainers secondContainer">
+            <h1></h1>
+            </div>
+    </div>
 
 
     <script src="index.js"></script>

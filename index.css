@@ -1,0 +1,33 @@
+.mainContainer{
+    width: 50rem;
+    background-color: rgb(15, 105, 109);
+    height: 20rem;
+    display: flex;
+    border: 2px solid rgb(15, 105, 109);
+    border-radius:15px;
+}
+
+.firstContainer{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5%;
+    color: rgb(15, 105, 109);
+}
+.twinContainers{
+    width: 50%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.secondContainer{
+    color: aliceblue;
+}
+button{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 30px 100px 10px 100px;
+    background-color: rgb(15, 105, 109);
+}
